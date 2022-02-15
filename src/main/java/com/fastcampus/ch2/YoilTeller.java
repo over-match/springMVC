@@ -23,7 +23,6 @@ public class YoilTeller {
 		String year = request.getParameter("year");
 		String month = request.getParameter("month");
 		String day = request.getParameter("day");
-		
   
 		// 2. 작업
 		int yyyy = Integer.parseInt(year);	// 문자열을 숫자로 변경
